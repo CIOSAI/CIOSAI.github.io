@@ -2,6 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@sveltejs/adapter-auto': ^2.0.0
+  '@sveltejs/adapter-static': ^2.0.3
   '@sveltejs/kit': ^1.20.4
   '@typescript-eslint/eslint-plugin': ^5.45.0
   '@typescript-eslint/parser': ^5.45.0
@@ -18,6 +19,7 @@ specifiers:
 
 devDependencies:
   '@sveltejs/adapter-auto': 2.1.0_@sveltejs+kit@1.22.6
+  '@sveltejs/adapter-static': 2.0.3_@sveltejs+kit@1.22.6
   '@sveltejs/kit': 1.22.6_svelte@4.2.0+vite@4.4.9
   '@typescript-eslint/eslint-plugin': 5.62.0_dhbftgwluaf2pse3xeibjbv2du
   '@typescript-eslint/parser': 5.62.0_qj3u6ezxe2airdzjq3nyoxe24m
@@ -364,6 +366,14 @@ packages:
     dependencies:
       '@sveltejs/kit': 1.22.6_svelte@4.2.0+vite@4.4.9
       import-meta-resolve: 3.0.0
+    dev: true
+
+  /@sveltejs/adapter-static/2.0.3_@sveltejs+kit@1.22.6:
+    resolution: {integrity: sha512-VUqTfXsxYGugCpMqQv1U0LIdbR3S5nBkMMDmpjGVJyM6Q2jHVMFtdWJCkeHMySc6mZxJ+0eZK3T7IgmUCDrcUQ==}
+    peerDependencies:
+      '@sveltejs/kit': ^1.5.0
+    dependencies:
+      '@sveltejs/kit': 1.22.6_svelte@4.2.0+vite@4.4.9
     dev: true
 
   /@sveltejs/kit/1.22.6_svelte@4.2.0+vite@4.4.9:
