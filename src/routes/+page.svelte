@@ -1,2 +1,2 @@
 <h1>Welcome to Hell</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<p>Visit <a href="./about">my ass</a> to have fun :3</p>
