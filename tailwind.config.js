@@ -3,7 +3,16 @@ export default {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   darkMode: 'class',
   theme: {
-    extend: {},
+    fontSize: {
+      sm: '0.8rem',
+      base: '1.2rem',
+      lg: '4rem',
+    },
+    fontFamily: {
+      'sans': ['Roboto Mono', 'Consolas', 'monospace']
+    },
+    extend: {
+    },
   },
   plugins: [],
 }
