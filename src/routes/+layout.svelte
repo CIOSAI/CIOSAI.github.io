@@ -1,9 +1,11 @@
 <script lang="ts">
 	import '../app.css';
-	import Theme from '$lib/Theme.svelte';
+	import Header from '$lib/Header.svelte';
 </script>
 
-<main class="bg-slate-200 dark:bg-slate-800">
-	<Theme />
-	<slot />
+<main class="bg-slate-200 dark:bg-indigo-900">
+	<Header />
+	<div class="px-16 py-4">
+		<slot />
+	</div>
 </main>

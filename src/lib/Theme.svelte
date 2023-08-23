@@ -5,6 +5,8 @@ https://github.com/CaptainCodeman/sveltekit-dark-mode
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import Icon from '$lib/ThemeIcon.svelte';
+	let className = '';
+	export { className as class };
 
 	// indicate if we're in dark mode or not
 	let dark: boolean;
@@ -65,6 +67,6 @@ https://github.com/CaptainCodeman/sveltekit-dark-mode
 	</script>
 </svelte:head>
 
-<button class="w-12 h-12" style={dark ? 'color: #ffffff' : 'color: #000000'} on:click={toggle}>
+<button class={className} style={dark ? 'color: #ffffff;' : 'color: #000000'} on:click={toggle}>
 	<Icon />
 </button>
