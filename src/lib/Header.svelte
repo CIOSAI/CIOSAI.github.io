@@ -10,11 +10,12 @@
 	import Instagram from './icons/instagram.svelte';
 	import Tiktok from './icons/tiktok.svelte';
 	import { base } from '$app/paths';
+	let test = `${base}/logo.png`;
 </script>
 
 <div class="z-10 sticky top-0 p-4 w-full grid grid-cols-3 gap-4">
 	<a class="w-24 aspect-square rounded-full border-slate-200 border-2" href="{base}/">
-		<img src={'/logo.png'} alt="CIOSAI logo" />
+		<img src={test} alt="CIOSAI logo" />
 	</a>
 	<div
 		class="flex flex-wrap justify-between items-center gap-1 dark:bg-indigo-900 bg-slate-200 p-2"
