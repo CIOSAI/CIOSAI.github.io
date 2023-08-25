@@ -1,6 +1,6 @@
 <script lang="ts">
 	import Card from '$lib/Card.svelte';
-	// import { base } from '$app/paths';
+	import { base } from '$app/paths';
 
 	const highlights = [
 		{
@@ -14,7 +14,7 @@
 			caption: 'Caivun : A Retro Display Font'
 		},
 		{
-			url: './img/thumbnails/sss.jpg',
+			url: `${base}/img/thumbnails/sss.jpg`,
 			href: 'https://github.com/CIOSAI/SequentialSetInstruction',
 			caption: 'SSS : Set-based esoteric language'
 		},
@@ -24,7 +24,7 @@
 			caption: '(WIP) OST for an upcoming mobile game'
 		},
 		{
-			url: './img/thumbnails/Sokkasuann.jpg',
+			url: `${base}/img/thumbnails/Sokkasuann.jpg`,
 			href: 'https://github.com/CIOSAI/SokkasuannSkeumorphicUI',
 			caption: 'Sokkasuann : Experimenting with neumorphic UI'
 		},
@@ -39,7 +39,7 @@
 			caption: 'Projects on Openprocessing with p5js'
 		},
 		{
-			url: './img/thumbnails/metaball.png',
+			url: `${base}/img/thumbnails/metaball.png`,
 			href: 'https://www.shadertoy.com/view/7dd3Rj',
 			caption: 'Projects on Shadertoy'
 		}
