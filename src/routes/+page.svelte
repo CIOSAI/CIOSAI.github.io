@@ -69,7 +69,7 @@
 
 <div class="h-16" />
 
-<h4 class="text-indigo-950 dark:text-slate-200 text-lg">Highlights:</h4>
+<h4 class="text-indigo-950 dark:text-slate-200 text-base sm:text-lg">Highlights:</h4>
 <h2
 	class="text-indigo-950 dark:text-slate-200 text-lg mx-4 lg:mx-16 my-8 overflow-x-scroll snap-x flex items-center flex-col md:flex-row gap-4 flex-nowrap"
 >
@@ -78,7 +78,7 @@
 			imgSrc={card.url}
 			caption={card.caption}
 			href={card.href}
-			class="snap-center w-64 h-48 md:w-96 md:h-64 flex-none"
+			class="snap-center w-48 h-36 sm:w-96 sm:h-64 flex-none"
 		/>
 	{/each}
 </h2>

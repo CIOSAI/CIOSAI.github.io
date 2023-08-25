@@ -8,7 +8,7 @@
 	{href}
 	target="_blank"
 	rel="noopener noreferrer"
-	class={className + ' text-indigo-900 dark:text-slate-200 w-8 aspect-square'}
+	class={className + ' text-indigo-900 dark:text-slate-200 w-6 sm:w-8 aspect-square'}
 >
 	<slot />
 </a>
