@@ -4,7 +4,7 @@ https://github.com/CaptainCodeman/sveltekit-dark-mode
 
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import Icon from '$lib/ThemeIcon.svelte';
+	import Icon from '$lib/icons/ThemeIcon.svelte';
 	let className = '';
 	export { className as class };
 
@@ -67,6 +67,6 @@ https://github.com/CaptainCodeman/sveltekit-dark-mode
 	</script>
 </svelte:head>
 
-<button class={className} style={dark ? 'color: #ffffff;' : 'color: #000000'} on:click={toggle}>
+<button class={className + ' text-indigo-900 dark:text-slate-200'} on:click={toggle}>
 	<Icon />
 </button>
