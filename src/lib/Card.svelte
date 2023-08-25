@@ -3,7 +3,7 @@
 	let caption = '';
 	let href = './';
 	let className = '';
-	export { imgSrc, caption, className as class };
+	export { imgSrc, caption, href, className as class };
 </script>
 
 <div class={className + ' overflow-clip relative'}>

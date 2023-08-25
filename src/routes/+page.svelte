@@ -2,16 +2,46 @@
 	import Card from '$lib/Card.svelte';
 
 	const highlights = [
-		{ url: 'http://placekitten.com/1200/1200', caption: 'Bruh Lmao' },
-		{ url: 'http://placekitten.com/400/800', caption: 'Tall' },
-		{ url: 'http://placekitten.com/300/200', caption: 'Meow :3' },
-		{ url: 'http://placekitten.com/600/400', caption: 'Me when I the uhh when the amongus' },
-		{ url: 'http://placekitten.com/600/400', caption: 'Me when I the uhh when the amongus' },
-		{ url: 'http://placekitten.com/600/400', caption: 'Me when I the uhh when the amongus' },
-		{ url: 'http://placekitten.com/600/400', caption: 'Me when I the uhh when the amongus' },
-		{ url: 'http://placekitten.com/600/400', caption: 'Me when I the uhh when the amongus' },
-		{ url: 'http://placekitten.com/600/400', caption: 'Me when I the uhh when the amongus' },
-		{ url: 'http://placekitten.com/600/400', caption: 'Me when I the uhh when the amongus' }
+		{
+			url: 'https://img.itch.zone/aW1hZ2UvMTgzODc4MS8xMDc5Mzk3My5wbmc=/original/ZEdykf.png',
+			href: 'https://ciosai.itch.io/scrimblo-mode',
+			caption: 'Scrimblo Mode : An arcade platform with just 2 buttons'
+		},
+		{
+			url: 'https://img.itch.zone/aW1nLzEwNTMzNzk1LnBuZw==/original/lTUl9p.png',
+			href: 'https://ciosai.itch.io/caivunfont',
+			caption: 'Caivun : A Retro Display Font'
+		},
+		{
+			url: './img/sss.jpg',
+			href: 'https://github.com/CIOSAI/SequentialSetInstruction',
+			caption: 'SSS : Set-based esoteric language'
+		},
+		{
+			url: 'https://img.itch.zone/aW1nLzEyOTUxMjc5LnBuZw==/315x250%23c/LD4CwW.png',
+			href: 'https://www.tumblr.com/ciosai-tw/723894569700311040/ciosai-coral-philosophy-preview-wanted-to?source=share',
+			caption: '(WIP) OST for an upcoming mobile game'
+		},
+		{
+			url: './img/Sokkasuann.jpg',
+			href: 'https://github.com/CIOSAI/SokkasuannSkeumorphicUI',
+			caption: 'Sokkasuann : Experimenting with neumorphic UI'
+		},
+		{
+			url: 'https://user-images.githubusercontent.com/89374056/199880784-d0cd764a-ca37-47c1-af6d-5b1b7b5c4a89.png',
+			href: 'https://indeciso-font.vercel.app/',
+			caption: 'Indeciso : A monospaced font'
+		},
+		{
+			url: 'https://openprocessing-usercontent.s3.amazonaws.com/thumbnails/visualThumbnail1075194@2x.jpg?hash=20210125134041',
+			href: 'https://openprocessing.org/sketch/1075194',
+			caption: 'Projects on Openprocessing with p5js'
+		},
+		{
+			url: './img/metaball.png',
+			href: 'https://www.shadertoy.com/view/7dd3Rj',
+			caption: 'Projects on Shadertoy'
+		}
 	];
 </script>
 
@@ -43,7 +73,12 @@
 	class="text-indigo-950 dark:text-slate-200 text-lg mx-16 my-8 overflow-x-scroll snap-x flex flex-row gap-4 flex-nowrap"
 >
 	{#each highlights as card}
-		<Card imgSrc={card.url} caption={card.caption} class="snap-center w-96 h-64 flex-none" />
+		<Card
+			imgSrc={card.url}
+			caption={card.caption}
+			href={card.href}
+			class="snap-center w-96 h-64 flex-none"
+		/>
 	{/each}
 </h2>
 
