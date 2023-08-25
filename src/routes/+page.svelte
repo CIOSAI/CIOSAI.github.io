@@ -47,10 +47,10 @@
 
 <h1 class="text-indigo-950 dark:text-slate-200 text-lg mx-8 italic">Hewwo!</h1>
 <p class="text-indigo-950 dark:text-slate-200 text-base">
-	This is JY from Taiwan :33 I make videogames, music, fonts, and illustrations ^w^
+	This is JY from Taiwan :33 I make videogames, music, conlangs, fonts, and illustrations ^w^
 </p>
 <p class="text-indigo-950 dark:text-slate-200 text-base">
-	My favorite animal is the shoebill, they look scary and dumb
+	My favorite animal is the shoebill, they look scary and dumb -u-
 </p>
 
 <div class="h-16" />
@@ -63,21 +63,21 @@
 
 <h4 class="text-indigo-950 dark:text-slate-200 text-base">I've coded in:</h4>
 <p class="text-indigo-950 dark:text-slate-200 text-base mx-8">
-	Javascript/Typescript, Rust, Nim, GLSL, Java, Python
+	Javascript/Typescript, Rust, Nim, GLSL, Elixir, Java, C#, Python
 </p>
 
 <div class="h-16" />
 
 <h4 class="text-indigo-950 dark:text-slate-200 text-lg">Highlights:</h4>
 <h2
-	class="text-indigo-950 dark:text-slate-200 text-lg mx-16 my-8 overflow-x-scroll snap-x flex flex-row gap-4 flex-nowrap"
+	class="text-indigo-950 dark:text-slate-200 text-lg mx-4 lg:mx-16 my-8 overflow-x-scroll snap-x flex items-center flex-col md:flex-row gap-4 flex-nowrap"
 >
 	{#each highlights as card}
 		<Card
 			imgSrc={card.url}
 			caption={card.caption}
 			href={card.href}
-			class="snap-center w-96 h-64 flex-none"
+			class="snap-center w-64 h-48 md:w-96 md:h-64 flex-none"
 		/>
 	{/each}
 </h2>

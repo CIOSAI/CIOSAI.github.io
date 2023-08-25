@@ -18,6 +18,6 @@
 	<div
 		class="pointer-events-none p-4 h-full relative border-8 bg-gradient-to-b from-transparent to-slate-200 dark:to-indigo-900 border-indigo-900 dark:border-slate-200"
 	>
-		<p class="text-base absolute bottom-8">{caption}</p>
+		<p class="text-sm md:text-base absolute bottom-8">{caption}</p>
 	</div>
 </div>
