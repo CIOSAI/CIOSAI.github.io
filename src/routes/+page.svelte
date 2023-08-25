@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Card from '$lib/Card.svelte';
+	// import { base } from '$app/paths';
 
 	const highlights = [
 		{

@@ -9,10 +9,11 @@
 	import Discord from './icons/discord.svelte';
 	import Instagram from './icons/instagram.svelte';
 	import Tiktok from './icons/tiktok.svelte';
+	import { base } from '$app/paths';
 </script>
 
 <div class="z-10 sticky top-0 p-4 w-full grid grid-cols-3 gap-4">
-	<a class="w-24 aspect-square rounded-full border-slate-200 border-2" href="/">
+	<a class="w-24 aspect-square rounded-full border-slate-200 border-2" href="{base}/">
 		<img src="/logo.png" alt="CIOSAI logo" />
 	</a>
 	<div
