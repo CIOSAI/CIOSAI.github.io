@@ -11,12 +11,13 @@
 	import Tiktok from './icons/tiktok.svelte';
 </script>
 
-<div class="sticky top-0 p-4 w-full flex">
+<div class="z-10 sticky top-0 p-4 w-full grid grid-cols-3 gap-4">
 	<a class="w-24 aspect-square rounded-full border-slate-200 border-2" href="/">
 		<img src="/logo.png" alt="CIOSAI logo" />
 	</a>
-	<div class="w-4" />
-	<div class="flex items-center gap-2 dark:bg-indigo-900 bg-slate-200 p-2">
+	<div
+		class="flex flex-wrap justify-between items-center gap-1 dark:bg-indigo-900 bg-slate-200 p-2"
+	>
 		<SocialButton href="https://youtube.com/@ciosai_tw?si=fzOsuP8yGvObEPPl"
 			><Youtube /></SocialButton
 		>
@@ -30,6 +31,5 @@
 			><Tiktok /></SocialButton
 		>
 	</div>
-	<div class="w-full" />
-	<Theme class="w-8 h-8" />
+	<Theme class="justify-self-end w-12 h-12" />
 </div>
