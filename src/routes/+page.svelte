@@ -13,7 +13,7 @@
 			caption: 'Caivun : A Retro Display Font'
 		},
 		{
-			url: './img/sss.jpg',
+			url: './img/thumbnails/sss.jpg',
 			href: 'https://github.com/CIOSAI/SequentialSetInstruction',
 			caption: 'SSS : Set-based esoteric language'
 		},
@@ -23,7 +23,7 @@
 			caption: '(WIP) OST for an upcoming mobile game'
 		},
 		{
-			url: './img/Sokkasuann.jpg',
+			url: './img/thumbnails/Sokkasuann.jpg',
 			href: 'https://github.com/CIOSAI/SokkasuannSkeumorphicUI',
 			caption: 'Sokkasuann : Experimenting with neumorphic UI'
 		},
@@ -38,7 +38,7 @@
 			caption: 'Projects on Openprocessing with p5js'
 		},
 		{
-			url: './img/metaball.png',
+			url: './img/thumbnails/metaball.png',
 			href: 'https://www.shadertoy.com/view/7dd3Rj',
 			caption: 'Projects on Shadertoy'
 		}
