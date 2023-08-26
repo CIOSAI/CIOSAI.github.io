@@ -24,7 +24,7 @@
 			caption: '(WIP) OST for an upcoming mobile game'
 		},
 		{
-			url: '${base}/img/thumbnails/walkintherain.jpg',
+			url: `${base}/img/thumbnails/walkintherain.jpg`,
 			href: 'https://imgur.com/ZDmkLT6',
 			caption: 'Procedural animation made with OPENRNDR'
 		},
