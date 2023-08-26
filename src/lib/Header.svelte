@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Theme from '$lib/Theme.svelte';
 	import SocialButton from './SocialButton.svelte';
+	import Itch from './icons/itch.svelte';
 	import Youtube from './icons/youtube.svelte';
 	import Github from './icons/github.svelte';
 	import Email from './icons/email.svelte';
@@ -20,6 +21,7 @@
 	<div
 		class="flex flex-wrap justify-between items-center gap-1 dark:bg-indigo-900 bg-slate-200 p-2"
 	>
+		<SocialButton href="https://ciosai.itch.io/"><Itch /></SocialButton>
 		<SocialButton href="https://youtube.com/@ciosai_tw?si=fzOsuP8yGvObEPPl"
 			><Youtube /></SocialButton
 		>
