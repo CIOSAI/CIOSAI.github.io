@@ -11,7 +11,7 @@
 		{
 			url: 'https://img.itch.zone/aW1nLzEwNTMzNzk1LnBuZw==/original/lTUl9p.png',
 			href: 'https://ciosai.itch.io/caivunfont',
-			caption: 'Caivun : A Retro Display Font'
+			caption: 'Caivun : A retro display font'
 		},
 		{
 			url: `${base}/img/thumbnails/sss.jpg`,
@@ -22,6 +22,11 @@
 			url: 'https://img.itch.zone/aW1nLzEyOTUxMjc5LnBuZw==/315x250%23c/LD4CwW.png',
 			href: 'https://www.tumblr.com/ciosai-tw/723894569700311040/ciosai-coral-philosophy-preview-wanted-to?source=share',
 			caption: '(WIP) OST for an upcoming mobile game'
+		},
+		{
+			url: '${base}/img/thumbnails/walkintherain.jpg',
+			href: 'https://imgur.com/ZDmkLT6',
+			caption: 'Procedural animation made with OPENRNDR'
 		},
 		{
 			url: `${base}/img/thumbnails/Sokkasuann.jpg`,
@@ -64,7 +69,7 @@
 
 <h4 class="text-indigo-950 dark:text-slate-200 text-base">I've coded in:</h4>
 <p class="text-indigo-950 dark:text-slate-200 text-base mx-8">
-	Javascript/Typescript, Rust, Nim, GLSL, Elixir, Java, C#, Python
+	Javascript/Typescript, Rust, Kotlin, Nim, GLSL, Elixir, Java, C#, Python
 </p>
 
 <div class="h-16" />
