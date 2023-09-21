@@ -1,6 +1,9 @@
 <script lang="ts">
+	import DropDown from '$lib/DropDown.svelte';
 	import Theme from '$lib/Theme.svelte';
+
 	import SocialButton from './SocialButton.svelte';
+
 	import Itch from './icons/itch.svelte';
 	import Youtube from './icons/youtube.svelte';
 	import Github from './icons/github.svelte';
@@ -10,14 +13,17 @@
 	import Discord from './icons/discord.svelte';
 	import Instagram from './icons/instagram.svelte';
 	import Tiktok from './icons/tiktok.svelte';
+
 	import { base } from '$app/paths';
-	let test = `${base}/logo.png`;
+
+	let dropDownRoutes = [
+		{ text: 'Home', url: base ? base : '/' },
+		{ text: 'Illustrations', url: `${base}/illustration` }
+	];
 </script>
 
 <div class="z-10 sticky top-0 p-4 w-full grid grid-cols-3 gap-4">
-	<a class="w-24 aspect-square rounded-full border-slate-200 border-2" href="{base}/">
-		<img src={test} alt="CIOSAI logo" />
-	</a>
+	<DropDown class="justify-self-start w-12 h-12" routes={dropDownRoutes} />
 	<div
 		class="flex flex-wrap justify-between items-center gap-1 dark:bg-indigo-900 bg-slate-200 p-2"
 	>
