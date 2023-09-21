@@ -25,6 +25,9 @@
 		<ol
 			transition:slide
 			class="w-min px-1 py-2 dark:bg-indigo-900 bg-slate-200 border-2 border-t-0 border-slate-500 dark:border-slate-400"
+			on:mouseleave={() => {
+				expanded = false;
+			}}
 		>
 			{#each routes as route}
 				<li><a href={route.url} class="hover:italic">{route.text}</a></li>
