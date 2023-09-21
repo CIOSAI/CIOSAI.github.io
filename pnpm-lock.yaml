@@ -10,6 +10,7 @@ specifiers:
   eslint: ^8.28.0
   eslint-config-prettier: ^8.5.0
   eslint-plugin-svelte: ^2.30.0
+  lozad: ^1.16.0
   postcss: ^8.4.28
   prettier: ^2.8.0
   prettier-plugin-svelte: ^2.10.1
@@ -19,6 +20,9 @@ specifiers:
   tslib: ^2.4.1
   typescript: ^5.0.0
   vite: ^4.4.2
+
+dependencies:
+  lozad: 1.16.0
 
 devDependencies:
   '@sveltejs/adapter-auto': 2.1.0_@sveltejs+kit@1.22.6
@@ -1381,6 +1385,10 @@ packages:
   /lodash.merge/4.6.2:
     resolution: {integrity: sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==}
     dev: true
+
+  /lozad/1.16.0:
+    resolution: {integrity: sha512-JBr9WjvEFeKoyim3svo/gsQPTkgG/mOHJmDctZ/+U9H3ymUuvEkqpn8bdQMFsvTMcyRJrdJkLv0bXqGm0sP72w==}
+    dev: false
 
   /lru-cache/6.0.0:
     resolution: {integrity: sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==}
