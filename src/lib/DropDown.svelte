@@ -8,7 +8,7 @@
 	export { className as class, routes };
 </script>
 
-<div class={className + ' text-indigo-900 dark:text-slate-200'}>
+<nav class={className + ' text-indigo-900 dark:text-slate-200'}>
 	<button
 		class="w-full active:text-slate-500 active:dark:text-slate-400 hover:scale-110 transition-transform ease-out duration-100"
 		on:click={() => {
@@ -31,4 +31,4 @@
 			{/each}
 		</ol>
 	{/if}
-</div>
+</nav>
