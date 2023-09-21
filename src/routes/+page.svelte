@@ -69,7 +69,7 @@
 
 <h4 class="text-indigo-950 dark:text-slate-200 text-base">I've coded in:</h4>
 <p class="text-indigo-950 dark:text-slate-200 text-base mx-8">
-	Javascript/Typescript, Rust, Kotlin, Nim, GLSL, Elixir, Java, C#, Python
+	Javascript/Typescript, SQL, Rust, Kotlin, Nim, GLSL, Elixir, Java, C#, Python
 </p>
 
 <div class="h-16" />
