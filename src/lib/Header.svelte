@@ -19,7 +19,8 @@
 	let dropDownRoutes = [
 		{ text: 'Home', url: base ? base : '/' },
 		{ text: 'Illustrations', url: `${base}/illustration` },
-		{ text: 'FontsOnWiki', url: `${base}/fonts-on-wiki` }
+		{ text: 'FontsOnWiki', url: `${base}/fonts-on-wiki` },
+		{ text: 'Typography', url: `${base}/font` }
 	];
 </script>
 
