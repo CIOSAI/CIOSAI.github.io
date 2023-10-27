@@ -9,7 +9,13 @@ export default {
       lg: '3.5rem',
     },
     fontFamily: {
-      'sans': ['Roboto Mono', 'Consolas', 'monospace']
+      'sans': ['Roboto Mono', 'Consolas', 'monospace'],
+      'Caivun': ['Caivun'],
+      'Dead Hammer': ['Dead Hammer'],
+      'Indeciso': ['Indeciso'],
+      'Kaukhia': ['Kaukhia'],
+      'Rollerball-1': ['Rollerball-1'],
+      'Straka': ['Straka'],
     },
     extend: {
     },

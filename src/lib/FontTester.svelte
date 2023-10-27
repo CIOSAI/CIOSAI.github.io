@@ -1,14 +1,13 @@
 <script lang="ts">
 	let name = '';
-	let fontSource = '';
 	let href = '';
 
 	let fontSize = 48;
 
-	export { name, fontSource, href };
+	export { name, href };
 </script>
 
-<div class={`font-[${fontSource}]` + ' p-4 border-2 border-indigo-900 dark:border-slate-200'}>
+<div class="p-4 border-2 border-indigo-900 dark:border-slate-200">
 	<h1 class="text-[6rem]">{name}</h1>
 
 	<div class="py-4 flex items-center gap-2">
