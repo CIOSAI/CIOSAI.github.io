@@ -6,7 +6,7 @@
 		{
 			url: 'https://img.itch.zone/aW1hZ2UvMTgzODc4MS8xMDc5Mzk3My5wbmc=/original/ZEdykf.png',
 			href: 'https://ciosai.itch.io/scrimblo-mode',
-			caption: 'Scrimblo Mode : An arcade platform with just 2 buttons'
+			caption: 'Scrimblo Mode : An arcade platformer with just 2 buttons'
 		},
 		{
 			url: 'https://img.itch.zone/aW1nLzEwNTMzNzk1LnBuZw==/original/lTUl9p.png',

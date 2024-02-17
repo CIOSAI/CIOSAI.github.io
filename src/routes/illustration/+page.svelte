@@ -62,7 +62,8 @@
 		},
 		{
 			url: `${base}/img/illustrations/font idea cjk huadanxiaren 2.png`,
-			caption: '滑蛋蝦仁 "prawn with silky egg", some Chinese typography presented tastefully',
+			caption:
+				'滑蛋蝦仁燴飯 "prawn with silky egg huifan", some Chinese typography presented tastefully',
 			width: 600,
 			height: 600
 		},
