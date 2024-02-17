@@ -4,6 +4,11 @@
 
 	const highlights = [
 		{
+			url: 'https://play-lh.googleusercontent.com/d3gJSs8fMA6GE07clXW8aA5a7M_J5vAoPyqp-mCyW-oB2dd9tFpIecCAMlLGHOPZPg=w5120-h2880',
+			href: 'https://play.google.com/store/apps/details?id=org.godotengine.theinktrepid',
+			caption: 'Action platformer on Google Play'
+		},
+		{
 			url: 'https://img.itch.zone/aW1hZ2UvMTgzODc4MS8xMDc5Mzk3My5wbmc=/original/ZEdykf.png',
 			href: 'https://ciosai.itch.io/scrimblo-mode',
 			caption: 'Scrimblo Mode : An arcade platformer with just 2 buttons'
@@ -17,11 +22,6 @@
 			url: `${base}/img/thumbnails/sss.jpg`,
 			href: 'https://github.com/CIOSAI/SequentialSetInstruction',
 			caption: 'SSS : Set-based esoteric language'
-		},
-		{
-			url: 'https://img.itch.zone/aW1nLzEyOTUxMjc5LnBuZw==/315x250%23c/LD4CwW.png',
-			href: 'https://www.tumblr.com/ciosai-tw/723894569700311040/ciosai-coral-philosophy-preview-wanted-to?source=share',
-			caption: '(WIP) OST for an upcoming mobile game'
 		},
 		{
 			url: `${base}/img/thumbnails/walkintherain.jpg`,
@@ -63,8 +63,8 @@
 
 <h4 class="text-indigo-950 dark:text-slate-200 text-base">I can speak:</h4>
 <p class="text-indigo-950 dark:text-slate-200 text-base mx-8">
-	Mandarin and Taigi(Taiwanese Hokkien) natively, English fluently, plus Spanish, Indonesian and
-	German
+	Mandarin and Taigi(Taiwanese Hokkien) natively, English fluently, plus German, Indonesian and
+	Spanish
 </p>
 
 <h4 class="text-indigo-950 dark:text-slate-200 text-base">I've coded in:</h4>
