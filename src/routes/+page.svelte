@@ -63,7 +63,7 @@
 
 <h4 class="text-indigo-950 dark:text-slate-200 text-base">I can speak:</h4>
 <p class="text-indigo-950 dark:text-slate-200 text-base mx-8">
-	Mandarin and Taigi(Taiwanese Hokkien) natively, English fluently, plus German, Indonesian and
+	Mandarin and Taigi(Taiwanese Hokkien) natively, English and German fluently, plus Indonesian and
 	Spanish
 </p>
 
