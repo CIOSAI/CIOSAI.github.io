@@ -18,6 +18,11 @@
 
   const livecodes = [
 		{
+			url: 'https://livecode.demozoo.org/media/2024_09_02_shader_jam_monday_night_bytes/grabber_mondaynightbytes_CIOSAI_tw.jpg',
+			href: 'https://livecode.demozoo.org/performer/ciosai_tw.html#mc',
+			caption: 'Monday Night Bytes 02.09'
+		},
+		{
 			url: 'https://livecode.demozoo.org/media/2024_07_22_shader_byte_jam_monday_night_bytes/grabber_fieldfx_Ciosai.jpg',
 			href: 'https://livecode.demozoo.org/performer/ciosai_tw.html#mc',
 			caption: 'Monday Night Bytes 22.07'
