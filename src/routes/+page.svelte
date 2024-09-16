@@ -1,8 +1,13 @@
 <script lang="ts">
 	import Card from '$lib/Card.svelte';
 	import { base } from '$app/paths';
-
-	const highlights = [
+	
+  const highlights = [
+    {
+			url: 'https://scontent-atl3-2.cdninstagram.com/v/t39.30808-6/459614784_18455193004011434_999280582958207228_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDcyMC5zZHIuZjMwODA4LmRlZmF1bHRfaW1hZ2UifQ&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_cat=102&_nc_ohc=9ZsdCocrux0Q7kNvgH4hULa&_nc_gid=0f10df2c87854428b06bc6d4890cc869&edm=APs17CUAAAAA&ccb=7-5&ig_cache_key=MzQ1NjI3NjM4MzM1MjU1MzUwMA==.3-ccb7-5&oh=00_AYAItUFnAjNf5VFTExXCPYpkXwBTOo66agwlfedIXj-Zng&oe=66EE0951&_nc_sid=10d13b',
+			href: 'https://www.instagram.com/p/C_3KRDWTt3N/?img_index=11',
+			caption: 'Featured (top left) at Typefest 2024 (Institut Seni Indonesia Surakarta)'
+		},
 		{
 			url: 'https://play-lh.googleusercontent.com/d3gJSs8fMA6GE07clXW8aA5a7M_J5vAoPyqp-mCyW-oB2dd9tFpIecCAMlLGHOPZPg=w5120-h2880',
 			href: 'https://play.google.com/store/apps/details?id=org.godotengine.theinktrepid',
