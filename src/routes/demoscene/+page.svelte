@@ -4,6 +4,41 @@
 
 	const prods = [
 		{
+			url: 'https://content.pouet.net/files/screenshots/00104/00104006.png',
+			href: 'https://www.pouet.net/prod.php?which=104006',
+			caption: 'Demo: chuliau(資料)'
+		},
+		{
+			url: 'https://content.pouet.net/files/screenshots/00104/00104016.png',
+			href: 'https://www.pouet.net/prod.php?which=104016',
+			caption: 'Exegfx: grimothea planipes /with Wrighter'
+		},
+		{
+			url: 'https://content.pouet.net/files/screenshots/00101/00101968.jpg',
+			href: 'https://www.pouet.net/prod.php?which=101968',
+			caption: 'Demo: it\'s magnetic !'
+		},
+		{
+			url: 'https://content.pouet.net/files/screenshots/00101/00101164.png',
+			href: 'https://www.pouet.net/prod.php?which=101164',
+			caption: 'Demo: bruh i ain\'t naming things /with Wrighter | Meteoriks 2024 Winner!'
+		},
+		{
+			url: 'https://content.pouet.net/files/screenshots/00102/00102194.png',
+			href: 'https://www.pouet.net/prod.php?which=102194',
+			caption: 'Demo: 座標轉移'
+		},
+		{
+			url: 'https://content.pouet.net/files/screenshots/00098/00098278.png',
+			href: 'https://www.pouet.net/prod.php?which=98278',
+			caption: 'Demo: el papel y el autor'
+		},
+		{
+			url: 'https://content.pouet.net/files/screenshots/00097/00097513.png',
+			href: 'https://www.pouet.net/prod.php?which=97513',
+			caption: 'Exegfx: summon_cat.glsl /with Wrighter'
+		},
+		{
 			url: 'https://content.pouet.net/files/screenshots/00097/00097338.png',
 			href: 'https://www.pouet.net/prod.php?which=97338',
 			caption: 'Demo: 來 → 去'
@@ -17,6 +52,21 @@
 	];
 
   const livecodes = [
+		{
+			url: 'https://livecode.demozoo.org/media/2025_04_20_shader_jam_revision_2025/grabber_revision_2025_shaderjam_ciosai_tw.jpg',
+			href: 'https://livecode.demozoo.org/performer/ciosai_tw.html#mc',
+			caption: 'Revision 2025'
+		},
+		{
+			url: 'https://livecode.demozoo.org/media/2024_12_06_shader_jam_inercia/grabber_inerciajam2024_ciosai_tw.jpg',
+			href: 'https://livecode.demozoo.org/performer/ciosai_tw.html#mc',
+			caption: 'Inercia 2024'
+		},
+		{
+			url: 'https://livecode.demozoo.org/media/2024_11_16_shader_jam_sessions/grabber_sessions_ciosai_tw.jpg',
+			href: 'https://livecode.demozoo.org/performer/ciosai_tw.html#mc',
+			caption: 'Sessions 2024'
+		},
 		{
 			url: 'https://livecode.demozoo.org/media/2024_09_02_shader_jam_monday_night_bytes/grabber_mondaynightbytes_CIOSAI_tw.jpg',
 			href: 'https://livecode.demozoo.org/performer/ciosai_tw.html#mc',
@@ -47,13 +97,13 @@
 
 <h4 class="text-indigo-950 dark:text-slate-200 text-base">
   Demoscene is a computer subculture originated in the Nordics in the 80's. 
-  You can visit 
-  <a class="hover:italic" href="https://github.com/psenough/teach_yourself_demoscene_in_14_days">here</a> 
-  to learn more about it.
+  You can 
+  <a class="hover:italic" href="https://github.com/psenough/teach_yourself_demoscene_in_14_days">visit here to learn more</a> 
+  about it.
   <br>
   Modern demoscene is often about sizecoding, livecoding, track music, computer graphics and much more.
   <br>
-  Also check out <a class="hover:italic" href="https://demozoo.org/sceners/142051/">my entry on Demozoo</a>.
+  Also <a class="hover:italic" href="https://demozoo.org/sceners/142051/">check out my entry on Demozoo</a>.
 </h4>
 
 <h4 class="text-indigo-950 dark:text-slate-200 text-base sm:text-lg">Prods:</h4>
