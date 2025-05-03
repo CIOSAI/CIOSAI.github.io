@@ -13,10 +13,10 @@
 <div class="border-indigo-950 dark:border-slate-200 sm:m-12 grid grid-cols-1 sm:grid-cols-2">
     <div class="info">
         <h4 class="text-indigo-950 dark:text-slate-200 text-base italic">什麼時候？</h4>
-        <p class="text-indigo-950 dark:text-slate-200 text-base pl-4 sm:pl-12">暫定 2025/5/11(日)<br>14:00 -</p>
+        <p class="text-indigo-950 dark:text-slate-200 text-base pl-4 sm:pl-12">2025/5/11(日)<br>14:00 -</p>
 
         <h4 class="text-indigo-950 dark:text-slate-200 text-base italic">在哪裡？</h4>
-        <p class="text-indigo-950 dark:text-slate-200 text-base pl-4 sm:pl-12">言文字 emoji cafe & bar<br>臺北車站 Z8 出口，右轉後直走</p>
+        <p class="text-indigo-950 dark:text-slate-200 text-base pl-4 sm:pl-12">歐樹咖啡 O'tree Cafe<br>捷運中山國小附近</p>
         <p class="text-indigo-950 dark:text-slate-200 text-sm pl-4 sm:pl-12 italic">注意入場低消一杯飲料，150~200 NTD</p>
 
         <h4 class="text-indigo-950 dark:text-slate-200 text-base italic">要幹嘛？</h4>
@@ -34,12 +34,12 @@
         <p class="text-indigo-950 dark:text-slate-200 text-base pl-4 sm:pl-12">Discord: dubious_creecher (有加 Discord 的話直接 @ 我)</p>
 
         <div class="h-12"></div>
-        <h4 class="text-indigo-950 dark:text-slate-200 text-base">以上細節可能還會調整，有建議的話也歡迎聯絡。</h4>
+        <h4 class="text-indigo-950 dark:text-slate-200 text-base"><s>以上細節可能還會調整，</s>時間地點都確定了！謝謝大家的耐心。有建議的話也歡迎聯絡。</h4>
     </div>
     <div class="register">
         <div class="flex flex-wrap items-center gap-6">
-            <h1 class="text-indigo-950 dark:text-slate-200 text-lg">來報名！</h1>
-            <p class="text-indigo-950 dark:text-slate-200 text-base">我算一下人數</p>
+            <h1 class="text-indigo-950 dark:text-slate-200 text-lg"><s>來報名！</s> 報名截止</h1>
+            <p class="text-indigo-950 dark:text-slate-200 text-base"><s>我算一下人數</s> 還是可以來，但無法保證你有座位 :(</p>
         </div>
 
         <a class="text-indigo-950 dark:text-slate-200 text-base pl-4 sm:pl-12 underline hover:italic" href="https://discord.gg/haBxT6WxgD">

@@ -13,10 +13,10 @@
 <div class="border-indigo-950 dark:border-slate-200 sm:m-12 grid grid-cols-1 sm:grid-cols-2">
     <div class="info">
         <h4 class="text-indigo-950 dark:text-slate-200 text-base italic">Time</h4>
-        <p class="text-indigo-950 dark:text-slate-200 text-base pl-4 sm:pl-12">Probably 11th of May 2025 (Sun)<br>14:00 -</p>
+        <p class="text-indigo-950 dark:text-slate-200 text-base pl-4 sm:pl-12">11th of May 2025 (Sun)<br>14:00 -</p>
 
         <h4 class="text-indigo-950 dark:text-slate-200 text-base italic">Location</h4>
-        <p class="text-indigo-950 dark:text-slate-200 text-base pl-4 sm:pl-12">emoji cafe & bar<br>Taipei Main Station, Exit Z8，turn right then go straight</p>
+        <p class="text-indigo-950 dark:text-slate-200 text-base pl-4 sm:pl-12">O'tree Cafe<br>Near Zhongshan Elementary School Station</p>
         <p class="text-indigo-950 dark:text-slate-200 text-sm pl-4 sm:pl-12 italic">customers of the cafe are to buy at least one drink, which would be around 150~200 NTD</p>
 
         <h4 class="text-indigo-950 dark:text-slate-200 text-base italic">What will we do?</h4>
@@ -34,12 +34,13 @@
         <p class="text-indigo-950 dark:text-slate-200 text-base pl-4 sm:pl-12">Discord: dubious_creecher (just @ me if you are in the group)</p>
 
         <div class="h-12"></div>
-        <h4 class="text-indigo-950 dark:text-slate-200 text-base">All details are subject to change as of now, suggestions are also welcome</h4>
+        <h4 class="text-indigo-950 dark:text-slate-200 text-base"><s>All details are subject to change as of now, </s> Place and time have been confirmed! Suggestions are still welcome</h4>
     </div>
     <div class="register">
         <div class="flex flex-wrap items-center gap-6">
-            <h1 class="text-indigo-950 dark:text-slate-200 text-lg">Register!</h1>
-            <p class="text-indigo-950 dark:text-slate-200 text-base">just need to know how many people are coming</p>
+            <h1 class="text-indigo-950 dark:text-slate-200 text-lg"><s>Register!</s> Registration closed</h1>
+            <p class="text-indigo-950 dark:text-slate-200 text-base"><s>just need to know how many people are coming</s></p>
+            <p class="text-indigo-950 dark:text-slate-200 text-base">you are still welcome, but I can't guarantee a seat for you :(</p>
         </div>
 
         <a class="text-indigo-950 dark:text-slate-200 text-base pl-4 sm:pl-12 underline hover:italic" href="https://discord.gg/haBxT6WxgD">
