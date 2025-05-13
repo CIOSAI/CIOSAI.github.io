@@ -1,0 +1,15 @@
+{
+  "when": {"date": "2025/05/11", "timeFrom": "14:00", "timeUntil": ""},
+  "where": "歐樹咖啡 O'tree Cafe\n捷運中山國小附近",
+  "whereBeware": "注意入場低消一杯飲料，150~200 NTD",
+  "what": [{
+    "timeFrom": "14:00", "timeUntil": "14:20",
+    "detail": "Revision 活動介紹", "hosts": ["石獅"]}, {
+    "timeFrom": "14:20", "timeUntil": "",
+    "detail": "閒聊", "hosts": []
+  }],
+  "howToJoin": [
+    {"display": "Discord 上加入活動", "url": "https://discord.gg/haBxT6WxgD"},
+    {"display": "email 我：如何稱呼 & 怎麽通知你活動資訊", "url": "mailto:jyinteractive.tw@gmail.com"}
+  ]
+}

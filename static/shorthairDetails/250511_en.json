@@ -1,0 +1,12 @@
+{
+  "where": "O'tree Cafe\nNear Zhongshan Elementary School Station",
+  "whereBeware": "customers of the cafe are to buy at least one drink, which would be around 150~200 NTD",
+  "what": [{
+    "detail": "my Revision adventure (talk)", "hosts": ["CIOSAI"]}, {
+    "detail": "chat about whatever", "hosts": []
+  }],
+  "howToJoin": [
+    {"display": "Register via the Discord group"},
+    {"display": "Just email me: how should I refer to you & how to keep you up to date"}
+  ]
+}

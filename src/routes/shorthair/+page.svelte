@@ -1,5 +1,22 @@
 <script lang="ts">
   import Funky from '$lib/Funky.svelte';
+  import { onMount } from 'svelte';
+  import { base } from '$app/paths';
+
+  const EDITION = "250511"
+
+  let detail:Object|null = null;
+
+  function parseDate(source:string): Date {
+    return new Date(source);
+  }
+
+  onMount(() => {
+    const url = `${base}/shorthairDetails/${EDITION}.json`;
+    fetch(url).then((response) => response.json()).then((json) => {
+      detail = json;
+    });
+  })
 </script>
 
 <div class="flex flex-wrap items-center gap-6">
@@ -10,18 +27,34 @@
 <h4 class="text-indigo-950 dark:text-slate-200 text-base sm:px-12">短毛是石獅爲了聚集“用程式創作的藝術家”建立的社群。如果你對 Demoscene、新媒體、電腦圖學、演算藝術等話題有興趣的話，歡迎一起來玩！</h4>
 <div class="h-12"></div>
 
+{#if !detail}
+<h4 class="text-indigo-950 dark:text-slate-200 text-base italic">查詢中 OwO</h4>
+<div class="h-svh"></div>
+{:else}
 <div class="border-indigo-950 dark:border-slate-200 sm:m-12 grid grid-cols-1 sm:grid-cols-2">
     <div class="info">
         <h4 class="text-indigo-950 dark:text-slate-200 text-base italic">什麼時候？</h4>
-        <p class="text-indigo-950 dark:text-slate-200 text-base pl-4 sm:pl-12">2025/5/11(日)<br>14:00 -</p>
+        <p class="text-indigo-950 dark:text-slate-200 text-base pl-4 sm:pl-12">{
+          parseDate(detail["when"]["date"]).toLocaleString("zh-TW", {
+            weekday: "short",
+            year: "numeric",
+            month: "short",
+            day: "numeric"
+          })
+        }<br>{detail["when"]["timeFrom"]} - {detail["when"]["timeUntil"]}</p>
 
         <h4 class="text-indigo-950 dark:text-slate-200 text-base italic">在哪裡？</h4>
-        <p class="text-indigo-950 dark:text-slate-200 text-base pl-4 sm:pl-12">歐樹咖啡 O'tree Cafe<br>捷運中山國小附近</p>
-        <p class="text-indigo-950 dark:text-slate-200 text-sm pl-4 sm:pl-12 italic">注意入場低消一杯飲料，150~200 NTD</p>
+        <p class="text-indigo-950 dark:text-slate-200 text-base pl-4 sm:pl-12">{detail["where"]}</p>
+        {#if detail.hasOwnProperty("whereBeware")}
+        <p class="text-indigo-950 dark:text-slate-200 text-sm pl-4 sm:pl-12 italic">{detail["whereBeware"]}</p>
+        {/if}
 
         <h4 class="text-indigo-950 dark:text-slate-200 text-base italic">要幹嘛？</h4>
-        <p class="text-indigo-950 dark:text-slate-200 text-base pl-4 sm:pl-12">14:00 - 14:20 : Revision 活動介紹 by 石獅</p>
-        <p class="text-indigo-950 dark:text-slate-200 text-base pl-4 sm:pl-12">14:20 -  : 閒聊</p>
+        {#each detail["what"] as segment}
+            <p class="text-indigo-950 dark:text-slate-200 text-base pl-4 sm:pl-12">{
+                segment["timeFrom"] + " - " + segment["timeUntil"]
+            } : {segment["detail"]}{#if segment["hosts"].length>0}{" by "+segment["hosts"].join(", ")}{/if}</p>
+        {/each}
 
         <h4 class="text-indigo-950 dark:text-slate-200 text-base italic">跟上最新消息</h4>
         <p class="text-indigo-950 dark:text-slate-200 text-base pl-4 sm:pl-12">最即時的更新會<a class="underline hover:italic" href="https://discord.gg/haBxT6WxgD">在 Discord 上</a></p>
@@ -32,26 +65,27 @@
         <p class="text-indigo-950 dark:text-slate-200 text-base pl-4 sm:pl-12">jyinteractive.tw@gmail.com</p>
         <p class="text-indigo-950 dark:text-slate-200 text-base pl-4 sm:pl-12">Telegram: ciosai_tw</p>
         <p class="text-indigo-950 dark:text-slate-200 text-base pl-4 sm:pl-12">Discord: dubious_creecher (有加 Discord 的話直接 @ 我)</p>
-
+<!--
         <div class="h-12"></div>
-        <h4 class="text-indigo-950 dark:text-slate-200 text-base"><s>以上細節可能還會調整，</s>時間地點都確定了！謝謝大家的耐心。有建議的話也歡迎聯絡。</h4>
+        <h4 class="text-indigo-950 dark:text-slate-200 text-base"><s>以上細節可能還會調整，</s>時間地點都確定了！謝謝大家的耐心。有建議的話也歡迎聯絡。</h4> -->
     </div>
     <div class="register">
         <div class="flex flex-wrap items-center gap-6">
-            <h1 class="text-indigo-950 dark:text-slate-200 text-lg"><s>來報名！</s> 報名截止</h1>
-            <p class="text-indigo-950 dark:text-slate-200 text-base"><s>我算一下人數</s> 還是可以來，但無法保證你有座位 :(</p>
+            <h1 class="text-indigo-950 dark:text-slate-200 text-lg">來報名！</h1>
         </div>
 
-        <a class="text-indigo-950 dark:text-slate-200 text-base pl-4 sm:pl-12 underline hover:italic" href="https://discord.gg/haBxT6WxgD">
-            Discord 上加入活動
-        </a>
-        <p class="text-indigo-950 dark:text-slate-200 text-base italic">或</p>
-        <a class="text-indigo-950 dark:text-slate-200 text-base pl-4 sm:pl-12 underline hover:italic" href="mailto:jyinteractive.tw@gmail.com">
-            email 我：如何稱呼 & 怎麽通知你活動資訊
-        </a>
+        {#each detail["howToJoin"] as method, index}
+            <a class="text-indigo-950 dark:text-slate-200 text-base pl-4 sm:pl-12 underline hover:italic" href="{method["url"]}">
+                {method["display"]}
+            </a>
+            {#if index!==detail["howToJoin"].length-1}
+                <p class="text-indigo-950 dark:text-slate-200 text-base italic">或</p>
+            {/if}
+        {/each}
     </div>
 
 </div>
+{/if}
 
 <Funky/>
 

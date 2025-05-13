@@ -1,5 +1,54 @@
 <script lang="ts">
   import Funky from '$lib/Funky.svelte';
+  import { onMount } from 'svelte';
+  import { base } from '$app/paths';
+
+  const EDITION = "250511"
+
+  let detail:Object|null = null;
+
+  function parseDate(source:string): Date {
+    return new Date(source);
+  }
+
+  onMount(() => {
+    const fallback = `${base}/shorthairDetails/${EDITION}.json`;
+    fetch(fallback).then((response) => response.json()).then((json) => {
+      detail = json;
+
+      const url = `${base}/shorthairDetails/${EDITION}_en.json`;
+      fetch(url).then((response) => response.json()).then((json) => {
+        let recursiveReplace = function(obj1, obj2): void {
+          let out = {};
+          for (let subject of Object.keys(obj1)) {
+            if (Object.keys(obj2).includes(subject)) {
+              if (Array.isArray(obj1[subject])) {
+                out[subject] = obj1[subject].map((item, index) => {
+                  if (typeof obj2[subject][index] === "object") {
+                    return recursiveReplace(item, obj2[subject][index]);
+                  }
+                  else {
+                    return obj2[subject];
+                  }
+                });
+              }
+              else if (typeof obj1[subject] === "object") {
+                out[subject] = recursiveReplace(obj1[subject], obj2[subject]);
+              }
+              else {
+                out[subject] = obj2[subject];
+              }
+            }
+            else {
+              out[subject] = obj1[subject];
+            }
+          }
+          return out;
+        }
+        detail = recursiveReplace(detail, json);
+      });
+    });
+  })
 </script>
 
 <div class="flex flex-wrap items-center gap-6">
@@ -10,18 +59,35 @@
 <h4 class="text-indigo-950 dark:text-slate-200 text-base sm:px-12">Shorthair was started by CIOSAI as an effort to build a demoscene community in Taiwan. Anyone intereseted in the demoscene, newmedia art, computer graphics and algorithmic art is welcome!</h4>
 <div class="h-12"></div>
 
+
+{#if !detail}
+<h4 class="text-indigo-950 dark:text-slate-200 text-base italic">Querying OwO</h4>
+<div class="h-svh"></div>
+{:else}
 <div class="border-indigo-950 dark:border-slate-200 sm:m-12 grid grid-cols-1 sm:grid-cols-2">
     <div class="info">
         <h4 class="text-indigo-950 dark:text-slate-200 text-base italic">Time</h4>
-        <p class="text-indigo-950 dark:text-slate-200 text-base pl-4 sm:pl-12">11th of May 2025 (Sun)<br>14:00 -</p>
+        <p class="text-indigo-950 dark:text-slate-200 text-base pl-4 sm:pl-12">{
+          parseDate(detail["when"]["date"]).toLocaleString("en-US", {
+            weekday: "short",
+            year: "numeric",
+            month: "short",
+            day: "numeric"
+          })
+        }<br>{detail["when"]["timeFrom"]} - {detail["when"]["timeUntil"]}</p>
 
         <h4 class="text-indigo-950 dark:text-slate-200 text-base italic">Location</h4>
-        <p class="text-indigo-950 dark:text-slate-200 text-base pl-4 sm:pl-12">O'tree Cafe<br>Near Zhongshan Elementary School Station</p>
-        <p class="text-indigo-950 dark:text-slate-200 text-sm pl-4 sm:pl-12 italic">customers of the cafe are to buy at least one drink, which would be around 150~200 NTD</p>
+        <p class="text-indigo-950 dark:text-slate-200 text-base pl-4 sm:pl-12">{detail["where"]}</p>
+        {#if detail.hasOwnProperty("whereBeware")}
+        <p class="text-indigo-950 dark:text-slate-200 text-sm pl-4 sm:pl-12 italic">{detail["whereBeware"]}</p>
+        {/if}
 
         <h4 class="text-indigo-950 dark:text-slate-200 text-base italic">What will we do?</h4>
-        <p class="text-indigo-950 dark:text-slate-200 text-base pl-4 sm:pl-12">14:00 - 14:20 : my Revision adventure (talk) by CIOSAI</p>
-        <p class="text-indigo-950 dark:text-slate-200 text-base pl-4 sm:pl-12">14:20 - : chat about whatever</p>
+        {#each detail["what"] as segment}
+            <p class="text-indigo-950 dark:text-slate-200 text-base pl-4 sm:pl-12">{
+                segment["timeFrom"] + " - " + segment["timeUntil"]
+            } : {segment["detail"]}{#if segment["hosts"].length>0}{" by "+segment["hosts"].join(", ")}{/if}</p>
+        {/each}
 
         <h4 class="text-indigo-950 dark:text-slate-200 text-base italic">Keep updated</h4>
         <p class="text-indigo-950 dark:text-slate-200 text-base pl-4 sm:pl-12"><a class="underline hover:italic" href="https://discord.gg/haBxT6WxgD">the Discord group</a> will be more closely up to date</p>
@@ -33,26 +99,26 @@
         <p class="text-indigo-950 dark:text-slate-200 text-base pl-4 sm:pl-12">Telegram: ciosai_tw</p>
         <p class="text-indigo-950 dark:text-slate-200 text-base pl-4 sm:pl-12">Discord: dubious_creecher (just @ me if you are in the group)</p>
 
-        <div class="h-12"></div>
-        <h4 class="text-indigo-950 dark:text-slate-200 text-base"><s>All details are subject to change as of now, </s> Place and time have been confirmed! Suggestions are still welcome</h4>
+        <!-- <div class="h-12"></div>
+        <h4 class="text-indigo-950 dark:text-slate-200 text-base"><s>All details are subject to change as of now, </s> Place and time have been confirmed! Suggestions are still welcome</h4> -->
     </div>
     <div class="register">
         <div class="flex flex-wrap items-center gap-6">
-            <h1 class="text-indigo-950 dark:text-slate-200 text-lg"><s>Register!</s> Registration closed</h1>
-            <p class="text-indigo-950 dark:text-slate-200 text-base"><s>just need to know how many people are coming</s></p>
-            <p class="text-indigo-950 dark:text-slate-200 text-base">you are still welcome, but I can't guarantee a seat for you :(</p>
+            <h1 class="text-indigo-950 dark:text-slate-200 text-lg">Register!</h1>
         </div>
 
-        <a class="text-indigo-950 dark:text-slate-200 text-base pl-4 sm:pl-12 underline hover:italic" href="https://discord.gg/haBxT6WxgD">
-            Register via the Discord group
-        </a>
-        <p class="text-indigo-950 dark:text-slate-200 text-base italic">OR</p>
-        <a class="text-indigo-950 dark:text-slate-200 text-base pl-4 sm:pl-12 underline hover:italic" href="mailto:jyinteractive.tw@gmail.com">
-            Just email me: how should I refer to you & how to keep you up to date
-        </a>
+        {#each detail["howToJoin"] as method, index}
+            <a class="text-indigo-950 dark:text-slate-200 text-base pl-4 sm:pl-12 underline hover:italic" href="{method["url"]}">
+                {method["display"]}
+            </a>
+            {#if index!==detail["howToJoin"].length-1}
+                <p class="text-indigo-950 dark:text-slate-200 text-base italic">or</p>
+            {/if}
+        {/each}
     </div>
 
 </div>
+{/if}
 
 <Funky/>
 
