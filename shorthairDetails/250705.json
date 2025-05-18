@@ -1,0 +1,18 @@
+{
+  "when": {"date": "2025/07/05", "timeFrom": "14:00", "timeUntil": ""},
+  "where": "未定",
+  "what": [{
+    "timeFrom": "14:00", "timeUntil": "14:30",
+    "detail": "投稿作品展示", "hosts": ["石獅"]}, {
+    "timeFrom": "14:00", "timeUntil": "15:00",
+    "detail": "投票", "hosts": []}, {
+    "timeFrom": "14:30", "timeUntil": "15:00",
+    "detail": "議程(開放投稿，有興趣請 email 我)", "hosts": ["你！"]}, {
+    "timeFrom": "15:00", "timeUntil": "15:15",
+    "detail": "頒獎", "hosts": ["石獅"]}, {
+    "timeFrom": "15:00", "timeUntil": "",
+    "detail": "閒聊", "hosts": []}],
+  "howToJoin": [
+    {"display": "投稿表單(現場活動表單會在地點確定後合併)", "instruction": "徵求作品中！(06/30 截止) 徵求類別：p5js、shadertoy、wild。詳情請見報名表單\n投稿注意：作品請勿事前公開。p5js 和 shadertoy 類組必須可以塞進一個文字檔內。", "url": "https://forms.gle/LSNWAD7bKVioeeqq6"}
+  ]
+}
