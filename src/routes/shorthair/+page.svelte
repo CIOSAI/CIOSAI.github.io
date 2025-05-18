@@ -3,7 +3,7 @@
   import { onMount } from 'svelte';
   import { base } from '$app/paths';
 
-  const EDITION = "250511"
+  const EDITION = "250705"
 
   let detail:Object|null = null;
 
@@ -78,6 +78,9 @@
             <a class="text-indigo-950 dark:text-slate-200 text-base pl-4 sm:pl-12 underline hover:italic" href="{method["url"]}">
                 {method["display"]}
             </a>
+            {#if method["instruction"]}
+                <p class="text-indigo-950 dark:text-slate-200 whitespace-pre-line text-base pl-12 sm:pl-20">{method["instruction"]}</p>
+            {/if}
             {#if index!==detail["howToJoin"].length-1}
                 <p class="text-indigo-950 dark:text-slate-200 text-base italic">或</p>
             {/if}

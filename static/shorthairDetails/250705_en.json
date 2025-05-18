@@ -1,0 +1,14 @@
+{
+  "when": {"date": "2025/07/05", "timeFrom": "14:00", "timeUntil": ""},
+  "where": "to be confirmed",
+  "what": [{
+    "timeFrom": "14:00", "timeUntil": "14:30",
+    "detail": "showcasing your submissions", "hosts": ["CIOSAI"]}, {
+    "detail": "voting for a winner", "hosts": []}, {
+    "detail": "seminar (submission open! email me!)", "hosts": ["You!"]}, {
+    "detail": "award giving", "hosts": ["CIOSAI"]}, {
+    "detail": "random chat", "hosts": []}],
+  "howToJoin": [
+    {"display": "fill this Google Form", "instruction": "Submission open! (deadline 30th of June) categories: p5js, shadertoy, wild. Details in the register form.\nSubmitters please notice: 1. You may not publish your entry elsewhere prior to the showcase 2. p5js and shadertoy entries must fit in a single text file", "url": "https://forms.gle/PCbSnBXtdmNBrWyT9"}
+  ]
+}
