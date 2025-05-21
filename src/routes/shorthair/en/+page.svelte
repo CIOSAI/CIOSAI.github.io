@@ -56,7 +56,7 @@
     <a class="text-indigo-950 dark:text-slate-200 text-base underline hover:italic" href="../">中文版</a>
 </div>
 <div class="h-12"></div>
-<h4 class="text-indigo-950 dark:text-slate-200 text-base sm:px-12">Shorthair was started by CIOSAI as an effort to build a demoscene community in Taiwan. Anyone intereseted in the demoscene, newmedia art, computer graphics and algorithmic art is welcome!</h4>
+<h4 class="text-indigo-950 dark:text-slate-200 text-base sm:px-12">Shorthair was started by CIOSAI as an effort to build a demoscene community in Taiwan. Anyone interested in the demoscene, newmedia art, computer graphics and algorithmic art is welcome!</h4>
 <div class="h-12"></div>
 
 
