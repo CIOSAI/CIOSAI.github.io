@@ -3,7 +3,7 @@
   import { onMount } from 'svelte';
   import { base } from '$app/paths';
 
-  const EDITION = "250705"
+  const EDITION = "250706"
 
   let detail:Object|null = null;
 
