@@ -4,10 +4,10 @@
   "what": [{
     "detail": "showcasing your submissions", "hosts": ["CIOSAI"]}, {
     "detail": "voting for a winner", "hosts": []}, {
-    "detail": "seminar (submission open! email me!)", "hosts": ["You!"]}, {
+    "detail": "Introduction to fragment shader (in Mandarin)", "hosts": ["CIOSAI"]}, {
     "detail": "award giving", "hosts": ["CIOSAI"]}, {
     "detail": "random chat", "hosts": []}],
   "howToJoin": [
-    {"display": "fill this Google Form", "instruction": "Submission open! (deadline 30th of June) categories: p5js, shadertoy, wild. Details in the register form.\nSubmitters please notice: 1. You may not publish your entry elsewhere prior to the showcase 2. p5js and shadertoy entries must fit in a single text file", "url": "https://forms.gle/gy87JWkEkCLrK95K6"}
+    {"display": "fill this Google Form", "instruction": "Submission open! (deadline extended to 5th of July) categories: p5js, shadertoy, wild. Details in the register form.\nSubmitters please notice: 1. You may not publish your entry elsewhere prior to the showcase 2. p5js and shadertoy entries must fit in a single text file", "url": "https://forms.gle/gy87JWkEkCLrK95K6"}
   ]
 }
