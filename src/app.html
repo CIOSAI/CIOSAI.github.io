@@ -9,6 +9,64 @@
 		<meta name="viewport" content="width=device-width" />
         <meta property="og:title" content="CIOSAI"/>
         <meta property="og:image" content="https://ciosai.github.io/logo.png"/>
+	<script type="text/javascript" src="https://stargaze.group/webring/onionring-variables.js" defer></script>
+	<script type="text/javascript" src="https://stargaze.group/webring/onionring-widget.js", charset="utf-8" defer></script>
+	<!--<link rel="stylesheet" href="https://stargaze.group/webring/onionring.css">-->
+	<style>
+/* onionring.js is made up of four files - onionring-widget.js, onionring-index.js, onionring-variables.js and onionring.css (this one!)
+// it's licensed under the cooperative non-violent license (CNPL) v4+ (https://thufie.lain.haus/NPL.html)
+// it was originally made by joey + mord of allium (蒜) house, last updated 2020-10-24 */
+
+/* === ONIONRING.CSS === */
+/* this file affects the style of the widget. remember to replace all instances of #webringid with whatever value you have for ringID in the onionring-widget.js file. make sure it still has the # at the front, though! probably easiest to use find+replace to do it */
+
+#stargaze-webring {
+  margin: 0 auto;
+  padding: 15px;
+  font-size: 1.2em;
+  color: oklch(0.257 0.09 281.288);
+}
+.dark #stargaze-webring {
+  color: oklch(0.929 0.013 255.508);
+}
+
+#stargaze-webring table {
+  margin: 0 auto;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 15px;
+  border-color: oklch(0.257 0.09 281.288);
+}
+.dark #stargaze-webring table {
+  border-color: oklch(0.929 0.013 255.508);
+}
+
+#stargaze-webring table tr td {
+  padding: 15px;
+}
+
+#stargaze-webring .webring-prev {
+  text-align: right;
+}
+
+#stargaze-webring .webring-info {
+   text-align: center;
+}
+
+#stargaze-webring .webring-arrow a {
+  font-size: 3.5em;
+  text-decoration: none;
+}
+
+#stargaze-webring .webring-next {
+  text-align: left;
+}
+
+#stargaze-webring .webring-links {
+  font-size: small;
+}
+
+	</style>
 		%sveltekit.head%
 	</head>
 	<body data-sveltekit-preload-data="hover">

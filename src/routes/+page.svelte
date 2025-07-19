@@ -64,7 +64,7 @@
 	My favorite animal is the shoebill, they look scary and dumb -u-
 </p>
 
-<div class="h-16" />
+<div class="h-8" />
 
 <h4 class="text-indigo-950 dark:text-slate-200 text-base">I can speak:</h4>
 <p class="text-indigo-950 dark:text-slate-200 text-base mx-8">
@@ -77,7 +77,11 @@
 	Javascript/Typescript, SQL, Rust, Kotlin, Nim, GLSL, Elixir, Java, C#, Python
 </p>
 
-<div class="h-16" />
+<div class="h-8" />
+
+<div id="stargaze-webring"> </div>
+
+<div class="h-8" />
 
 <h4 class="text-indigo-950 dark:text-slate-200 text-base sm:text-lg">Highlights:</h4>
 <h2
