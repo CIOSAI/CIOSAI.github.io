@@ -42,11 +42,11 @@
 		>
 			{#each [
 		{ text: 'Home', url: 'https://CIOSAI.github.io' },
-		{ text: 'Demoscene', url: `${base}/demoscene` },
-		{ text: 'Shorthair', url: `${base}/shorthair` },
-		{ text: 'Illustrations', url: `${base}/illustration` },
+		{ text: 'Demoscene', url: `https://CIOSAI.github.io/demoscene` },
+		{ text: 'Shorthair', url: `https://CIOSAI.github.io/shorthair` },
+		{ text: 'Illustrations', url: `https://CIOSAI.github.io/illustration` },
 		{ text: 'FontsOnWiki', url: `https://CIOSAI.github.io/fonts-on-wiki` },
-		{ text: 'Typography', url: `${base}/font` }
+		{ text: 'Typography', url: `https://CIOSAI.github.io/font` }
 	] as route}
 				<a href={route.url} class="hover:italic w-max text-pink-700 dark:text-orange-400">./{route.text}</a>
 			{/each}
