@@ -2,6 +2,7 @@
 	import { slide } from 'svelte/transition';
 	import ListIcon from './icons/listicon.svelte';
 	import ExpandedIcon from './icons/expanded.svelte';
+	import { base } from '$app/paths';
 	let expanded = false;
 	let className = '';
 	let routes: { text: string; url: string }[] = [];
@@ -39,7 +40,14 @@
 			transition:slide
 			class="w-[80vw] px-1 py-2 dark:bg-indigo-900 bg-slate-200 flex flex-wrap gap-1"
 		>
-			{#each routes as route}
+			{#each [
+		{ text: 'Home', url: 'https://CIOSAI.github.io' },
+		{ text: 'Demoscene', url: `/demoscene` },
+		{ text: 'Shorthair', url: `/shorthair` },
+		{ text: 'Illustrations', url: `/illustration` },
+		{ text: 'FontsOnWiki', url: `https://CIOSAI.github.io/fonts-on-wiki` },
+		{ text: 'Typography', url: `/font` }
+	] as route}
 				<a href={route.url} class="hover:italic w-max text-pink-700 dark:text-orange-400">./{route.text}</a>
 			{/each}
 		</div>
