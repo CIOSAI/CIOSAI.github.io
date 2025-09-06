@@ -24,7 +24,7 @@
 	{#if expanded}
 		<ol
 			transition:slide
-			class="w-min px-1 py-2 dark:bg-indigo-900 bg-slate-200 border-2 border-t-0 border-slate-500 dark:border-slate-400"
+			class="w-min absolute px-1 py-2 dark:bg-indigo-900 bg-slate-200 border-2 border-t-0 border-slate-500 dark:border-slate-400"
 			on:mouseleave={() => {
 				expanded = false;
 			}}
