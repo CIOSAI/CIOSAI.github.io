@@ -98,12 +98,12 @@
 <h4 class="text-indigo-950 dark:text-slate-200 text-base">
   Demoscene is a computer subculture originated in the Nordics in the 80's. 
   You can 
-  <a class="hover:italic" href="https://github.com/psenough/teach_yourself_demoscene_in_14_days">visit here to learn more</a> 
+  <a class="hover:italic text-pink-700 dark:text-orange-400" href="https://github.com/psenough/teach_yourself_demoscene_in_14_days">visit here to learn more</a> 
   about it.
   <br>
   Modern demoscene is often about sizecoding, livecoding, track music, computer graphics and much more.
   <br>
-  Also <a class="hover:italic" href="https://demozoo.org/sceners/142051/">check out my entry on Demozoo</a>.
+  Also <a class="hover:italic text-pink-700 dark:text-orange-400" href="https://demozoo.org/sceners/142051/">check out my entry on Demozoo</a>.
 </h4>
 
 <h4 class="text-indigo-950 dark:text-slate-200 text-base sm:text-lg">Prods:</h4>
@@ -143,5 +143,5 @@
 
 <h4 class="text-indigo-950 dark:text-slate-200 text-small">
   
-  Taken by <a class="hover:italic" href="https://demozoo.org/sceners/79080/">Slerpy</a>
+  Taken by <a class="hover:italic text-pink-700 dark:text-orange-400" href="https://slerpy.xyz">Slerpy</a>
 </h4>

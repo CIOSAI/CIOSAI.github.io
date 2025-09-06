@@ -40,7 +40,7 @@
 			class="w-[80vw] px-1 py-2 dark:bg-indigo-900 bg-slate-200 flex flex-wrap gap-1"
 		>
 			{#each routes as route}
-				<a href={route.url} class="hover:italic w-max text-pink-700">./{route.text}</a>
+				<a href={route.url} class="hover:italic w-max text-pink-700 dark:text-orange-400">./{route.text}</a>
 			{/each}
 		</div>
 	</noscript>

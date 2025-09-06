@@ -30,7 +30,7 @@
 	<br />
 	<a
 		style={`font-size: ${fontSize}px;`}
-		class="hover:italic"
+		class="hover:italic text-pink-700 dark:text-orange-400"
 		{href}
 		target="_blank"
 		rel="noopener noreferrer">Download from here</a
