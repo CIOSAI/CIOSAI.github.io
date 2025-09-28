@@ -21,10 +21,12 @@
 
 <div class="flex flex-wrap items-center gap-6">
     <h1 class="text-indigo-950 dark:text-slate-200 text-lg">短毛新媒體小聚</h1>
-    <a class="text-indigo-950 dark:text-slate-200 text-base underline hover:italic" href="en">English version</a>
+    <a class="hover:italic text-pink-700 dark:text-orange-400" href="en">English version</a>
 </div>
 <div class="h-12"></div>
 <h4 class="text-indigo-950 dark:text-slate-200 text-base sm:px-12">短毛是石獅爲了聚集“用程式創作的藝術家”建立的社群。如果你對 Demoscene、新媒體、電腦圖學、演算藝術等話題有興趣的話，歡迎一起來玩！</h4>
+<h4 class="text-indigo-950 dark:text-slate-200 text-base sm:px-12">目前轉生成<a class="hover:italic text-pink-700 dark:text-orange-400" href="https://ciosai.github.io/operator-digitalfest/">運算子數位藝術節</a></h4>
+<h4 class="text-base sm:px-12"><a class="hover:italic text-pink-700 dark:text-orange-400" href="https://www.youtube.com/watch?v=Z7Ce2SOAFLc" target="_blank">成果可以在 Youtube 上看喔</a></h4>
 <div class="h-12"></div>
 
 {#if !detail}

@@ -53,10 +53,12 @@
 
 <div class="flex flex-wrap items-center gap-6">
     <h1 class="text-indigo-950 dark:text-slate-200 text-lg">Shorthair Newmedia Meetup</h1>
-    <a class="text-indigo-950 dark:text-slate-200 text-base underline hover:italic" href="../">中文版</a>
+    <a class="hover:italic text-pink-700 dark:text-orange-400" href="../">中文版</a>
 </div>
 <div class="h-12"></div>
 <h4 class="text-indigo-950 dark:text-slate-200 text-base sm:px-12">Shorthair was started by CIOSAI as an effort to build a demoscene community in Taiwan. Anyone interested in the demoscene, newmedia art, computer graphics and algorithmic art is welcome!</h4>
+<h4 class="text-indigo-950 dark:text-slate-200 text-base sm:px-12">Reincarnated as <a class="hover:italic text-pink-700 dark:text-orange-400" href="https://ciosai.github.io/operator-digitalfest/en/">Operator Digitalfest</a> as of now</h4>
+<h4 class="text-base sm:px-12"><a class="hover:italic text-pink-700 dark:text-orange-400" href="https://www.youtube.com/watch?v=Z7Ce2SOAFLc" target="_blank">The result is up on Youtube</a></h4>
 <div class="h-12"></div>
 
 
