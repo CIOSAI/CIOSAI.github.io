@@ -58,7 +58,7 @@
 
 <h1 class="text-indigo-950 dark:text-slate-200 text-lg mx-8 italic">Hewwo!</h1>
 <p class="text-indigo-950 dark:text-slate-200 text-base">
-	This is JY from Taiwan :33 I make videogames, music, conlangs, fonts, and illustrations ^w^
+	This is JY :33 I'm a programmer from Taiwan, I also make videogames, music, conlangs, fonts, and illustrations ^w^
 </p>
 <p class="text-indigo-950 dark:text-slate-200 text-base">
 	My favorite animal is the shoebill, they look scary and dumb -u-
@@ -71,6 +71,7 @@
 	Mandarin and Taigi(Taiwanese Hokkien) natively, English and German fluently, plus Indonesian and
 	Spanish
 </p>
+<a title="do you not trust me? 🥺" class="hover:italic text-pink-700 dark:text-orange-400 text-sm" href="https://github.com/CIOSAI/CIOSAI.github.io/releases/tag/documents" target="_blank">See my language certification documents here</a>
 
 <h4 class="text-indigo-950 dark:text-slate-200 text-base">I've coded in:</h4>
 <p class="text-indigo-950 dark:text-slate-200 text-base mx-8">
