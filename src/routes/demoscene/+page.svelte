@@ -4,6 +4,11 @@
 
 	const prods = [
 		{
+			url: 'https://content.pouet.net/files/screenshots/00105/00105423.png',
+			href: 'https://www.pouet.net/prod.php?which=105423',
+			caption: 'Demo: 到遐著知到矣'
+		},
+		{
 			url: 'https://content.pouet.net/files/screenshots/00104/00104006.png',
 			href: 'https://www.pouet.net/prod.php?which=104006',
 			caption: 'Demo: chuliau(資料)'
@@ -52,6 +57,16 @@
 	];
 
   const livecodes = [
+		{
+			url: 'https://livecode.demozoo.org/media/2025_12_13_shader_jam_sessions/grabber_sessions_CIOSAI_tw.jpg',
+			href: 'https://livecode.demozoo.org/performer/ciosai_tw.html#mc',
+			caption: 'Sessions 2025'
+		},
+		{
+			url: 'https://livecode.demozoo.org/media/2025_12_06_shader_jam_inercia/grabber_inercia2025_CIOSAI_tw.jpg',
+			href: 'https://livecode.demozoo.org/performer/ciosai_tw.html#mc',
+			caption: 'Inercia 2025'
+		},
 		{
 			url: 'https://livecode.demozoo.org/media/2025_04_20_shader_jam_revision_2025/grabber_revision_2025_shaderjam_ciosai_tw.jpg',
 			href: 'https://livecode.demozoo.org/performer/ciosai_tw.html#mc',
