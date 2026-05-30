@@ -2,20 +2,20 @@
 	let name = '';
 	let href = '';
 
-	let fontSize = 48;
+	let fontSize = 24;
 
 	export { name, href };
 </script>
 
 <div class="p-4 border-2 border-indigo-900 dark:border-slate-200">
-	<h1 class="text-[6rem]">{name}</h1>
+	<h1 class="text-[7vw] md:text-[10vw]">{name}</h1>
 
 	<div class="py-4 flex items-center gap-2">
 		<input
 			class="transparent h-[4px] w-1/3 cursor-pointer appearance-none border-transparent bg-indigo-200 dark:bg-slate-500 accent-indigo-900 dark:accent-slate-200"
 			type="range"
 			min="12"
-			max="72"
+			max="48"
 			bind:value={fontSize}
 		/>
 		<p style={`font-size: ${fontSize}px;`}>{fontSize} px</p>

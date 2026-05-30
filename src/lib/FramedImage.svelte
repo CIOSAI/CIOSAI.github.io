@@ -13,7 +13,7 @@
 		alt={caption}
 		{width}
 		{height}
-		class="lozad border-8 border-indigo-900 dark:border-slate-200"
+		class="lozad inline border-8 border-indigo-900 dark:border-slate-200"
 	/>
 	<figcaption
 		class="table-caption caption-bottom text-indigo-950 dark:text-slate-200 text-sm md:text-base"
