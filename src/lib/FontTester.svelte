@@ -22,6 +22,7 @@
 	</div>
 
 	<p contenteditable="true" spellcheck="false" style={`font-size: ${fontSize}px;`}>
+	        YOU CAN EDIT THE TEXT! <br />
 		THE QUICK BROWN FOX JUMPS OVER A LAZY DOG <br /> the quick brown fox jumps over a lazy dog
 		<br /> 0123456789 <br />
 		?!,."':;@#$%& <br />
