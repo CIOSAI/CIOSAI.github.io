@@ -39,7 +39,7 @@
 -->
 	<div
 		transition:slide
-		class="w-[80vw] px-1 py-2 dark:bg-indigo-900 bg-slate-200 flex flex-wrap gap-1"
+		class="px-1 py-2 dark:bg-indigo-900 bg-slate-200 flex flex-wrap gap-1"
 	>
 		{#each routes as route}
 		<a href={route.url} class="interactive w-max">./{route.text}</a>
