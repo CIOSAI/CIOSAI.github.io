@@ -6,13 +6,17 @@
 
 	import Itch from './icons/itch.svelte';
 	import Youtube from './icons/youtube.svelte';
+	import Musicnote from './icons/musicnote.svelte';
 	import Github from './icons/github.svelte';
 	import Email from './icons/email.svelte';
+	import Instagram from './icons/instagram.svelte';
+
+	/*
 	import Twitter from './icons/twitter.svelte';
 	import Tumblr from './icons/tumblr.svelte';
 	import Discord from './icons/discord.svelte';
-	import Instagram from './icons/instagram.svelte';
 	import Tiktok from './icons/tiktok.svelte';
+	*/
 
 	import { base } from '$app/paths';
 
@@ -32,18 +36,22 @@
 		class="flex flex-wrap h-min justify-between items-center gap-1 dark:bg-indigo-900 bg-slate-200 p-2"
 	>
 		<SocialButton href="https://ciosai.itch.io/"><Itch /></SocialButton>
-		<SocialButton href="https://youtube.com/@ciosai_tw?si=fzOsuP8yGvObEPPl"
+		<SocialButton href="https://youtube.com/@ciosai_tw"
 			><Youtube /></SocialButton
+		>
+		<SocialButton href="https://www.youtube.com/@ciosaitheproducer9833"
+			><Musicnote /></SocialButton
 		>
 		<SocialButton href="https://github.com/CIOSAI"><Github /></SocialButton>
 		<SocialButton href="mailto:jyinteractive.tw@gmail.com"><Email /></SocialButton>
-		<!-- <SocialButton href="https://twitter.com/CIOSAI_tw"><Twitter /></SocialButton> -->
-		<!-- <SocialButton href="https://www.tumblr.com/ciosai-tw"><Tumblr /></SocialButton> -->
-		<SocialButton href="https://discord.gg/ctADDDX4zt"><Discord /></SocialButton>
 		<SocialButton href="https://www.instagram.com/ciosai/"><Instagram /></SocialButton>
-		<!-- <SocialButton href="https://www.tiktok.com/@ciosai_tw?is_from_webapp=1&sender_device=pc"
-			><Tiktok /></SocialButton
-		> -->
+
+		<!--
+		<SocialButton href="https://twitter.com/CIOSAI_tw"><Twitter /></SocialButton>
+		<SocialButton href="https://www.tumblr.com/ciosai-tw"><Tumblr /></SocialButton>
+		<SocialButton href="https://discord.gg/nolongeractive"><Discord /></SocialButton>
+		<SocialButton href="https://www.tiktok.com/@ciosai_tw?is_from_webapp=1&sender_device=pc" <Tiktok /></SocialButton>
+		-->
 	</div>
 	<Theme class="justify-self-end w-12 h-12" />
 </div>
