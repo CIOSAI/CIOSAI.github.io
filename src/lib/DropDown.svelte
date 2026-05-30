@@ -41,14 +41,7 @@
 		transition:slide
 		class="w-[80vw] px-1 py-2 dark:bg-indigo-900 bg-slate-200 flex flex-wrap gap-1"
 	>
-		{#each [
-	{ text: 'Home', url: `${base}/` },
-	{ text: 'Demoscene', url: `${base}/demoscene` },
-	{ text: 'Shorthair', url: `${base}/shorthair` },
-	{ text: 'Illustrations', url: `${base}/illustration` },
-	{ text: 'FontsOnWiki', url: `${base}/fonts-on-wiki` },
-	{ text: 'Typography', url: `${base}/font` }
-		       ] as route}
+		{#each routes as route}
 		<a href={route.url} class="interactive w-max">./{route.text}</a>
 		{/each}
 	</div>
