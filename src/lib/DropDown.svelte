@@ -10,6 +10,7 @@
 </script>
 
 <nav class={className + ' text-indigo-900 dark:text-slate-200'}>
+<!--
 	<button
 		class="w-full active:text-slate-500 active:dark:text-slate-400 hover:scale-110 transition-transform ease-out duration-100"
 		on:click={() => {
@@ -35,21 +36,20 @@
 			{/each}
 		</ol>
 	{/if}
-	<noscript>
-		<div
-			transition:slide
-			class="w-[80vw] px-1 py-2 dark:bg-indigo-900 bg-slate-200 flex flex-wrap gap-1"
-		>
-			{#each [
-		{ text: 'Home', url: 'https://CIOSAI.github.io' },
-		{ text: 'Demoscene', url: `https://CIOSAI.github.io/demoscene` },
-		{ text: 'Shorthair', url: `https://CIOSAI.github.io/shorthair` },
-		{ text: 'Illustrations', url: `https://CIOSAI.github.io/illustration` },
-		{ text: 'FontsOnWiki', url: `https://CIOSAI.github.io/fonts-on-wiki` },
-		{ text: 'Typography', url: `https://CIOSAI.github.io/font` }
-	] as route}
-				<a href={route.url} class="hover:italic w-max text-pink-700 dark:text-orange-400">./{route.text}</a>
-			{/each}
-		</div>
-	</noscript>
+-->
+	<div
+		transition:slide
+		class="w-[80vw] px-1 py-2 dark:bg-indigo-900 bg-slate-200 flex flex-wrap gap-1"
+	>
+		{#each [
+	{ text: 'Home', url: `${base}/` },
+	{ text: 'Demoscene', url: `${base}/demoscene` },
+	{ text: 'Shorthair', url: `${base}/shorthair` },
+	{ text: 'Illustrations', url: `${base}/illustration` },
+	{ text: 'FontsOnWiki', url: `${base}/fonts-on-wiki` },
+	{ text: 'Typography', url: `${base}/font` }
+		       ] as route}
+		<a href={route.url} class="interactive w-max">./{route.text}</a>
+		{/each}
+	</div>
 </nav>

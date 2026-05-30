@@ -35,3 +35,18 @@
     }
 }
 
+p {
+  font-size: 1.2rem;
+}
+
+.interactive {
+  color: rgb(190 24 93 / var(--tw-text-opacity, 1));
+}
+
+.interactive:hover {
+  font-style: italic;
+}
+
+.dark .interactive {
+  color: rgb(251 146 60 / var(--tw-text-opacity, 1));
+}

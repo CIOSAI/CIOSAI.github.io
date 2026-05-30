@@ -66,11 +66,11 @@
 	];
 </script>
 
-<h1 class="text-indigo-950 dark:text-slate-200 text-lg mx-8 italic">Hewwo!</h1>
-<p class="text-indigo-950 dark:text-slate-200 text-base">
+<h1 class="text-lg mx-8 italic">Hewwo!</h1>
+<p>
 	This is JY or CIOSAI(石獅) :33 I'm a programmer from Taiwan, I also make videogames, music, conlangs, fonts, and illustrations ^w^
 </p>
-<p class="text-indigo-950 dark:text-slate-200 text-base">
+<p>
 	My favorite animal is the shoebill, they look scary and dumb -u-
 </p>
 
@@ -78,30 +78,25 @@
 
 <div id="stargaze-webring"> </div>
 
-<h4 class="text-indigo-950 dark:text-slate-200 text-base">I can speak:</h4>
-<p class="text-indigo-950 dark:text-slate-200 text-base mx-8">
+<h4 class="text-base">I can speak:</h4>
+<p class="mx-8">
 	Mandarin and Taigi(Taiwanese Hokkien) natively, English and German fluently, plus Indonesian and
 	Spanish
 </p>
-<a title="do you not trust me? 🥺" class="hover:italic text-pink-700 dark:text-orange-400 text-sm" href="https://github.com/CIOSAI/CIOSAI.github.io/releases/tag/documents" target="_blank">See my language certification documents here</a>
+<a title="do you not trust me? 🥺" class="interactive text-sm" href="https://github.com/CIOSAI/CIOSAI.github.io/releases/tag/documents" target="_blank">See my language certification documents here</a>
 
-<h4 class="text-indigo-950 dark:text-slate-200 text-base">I've coded in:</h4>
-<p class="text-indigo-950 dark:text-slate-200 text-base mx-8">
-	Javascript/Typescript, Java, Rust, GLSL, C++, SQL, Kotlin, Nim, Elixir, C#, Python
-</p>
-
-<h4 class="text-indigo-950 dark:text-slate-200 text-base">I've worked at: (overlapping)</h4>
-<p class="text-indigo-950 dark:text-slate-200 text-base mx-8">
-    <a class="hover:italic text-pink-700 dark:text-orange-400" href="https://www.ragic.com" target="_blank">Ragic</a> as a Software Engineer, I maintained BBCode and the text editor<br>
-    <a class="hover:italic text-pink-700 dark:text-orange-400" href="https://ciosai.github.io/operator-digitalfest/en/" target="_blank">Operator Digitalfest(Shorthair)</a> as the leader, to foster a demoscene community in Taiwan<br>
-    <a class="hover:italic text-pink-700 dark:text-orange-400" href="https://ocf.tw/" target="_blank">OCF</a>'s booth as a volunteer, I introduced people in the music industry to Creative Commons and OCF<br>
+<h4 class="text-base">I've worked at: (overlapping)</h4>
+<p class="mx-8">
+    <a class="interactive" href="https://www.ragic.com" target="_blank">Ragic</a> as a Software Engineer, I maintained BBCode and the text editor<br>
+    <a class="interactive" href="https://ciosai.github.io/operator-digitalfest/en/" target="_blank">Operator Digitalfest(Shorthair)</a> as the leader, to foster a demoscene community in Taiwan<br>
+    <a class="interactive" href="https://ocf.tw/" target="_blank">OCF</a>'s booth as a volunteer, I introduced people in the music industry to Creative Commons and OCF<br>
 </p>
 
 <div class="h-8" />
 
-<h4 class="text-indigo-950 dark:text-slate-200 text-base sm:text-lg">Highlights:</h4>
+<h4 class="text-base sm:text-lg">Highlights:</h4>
 <h2
-	class="text-indigo-950 dark:text-slate-200 text-lg mx-4 lg:mx-16 my-8 overflow-x-scroll snap-x flex items-center flex-col md:flex-row gap-4 flex-nowrap"
+	class="text-lg mx-4 lg:mx-16 my-8 overflow-x-scroll snap-x flex items-center flex-col md:flex-row gap-4 flex-nowrap"
 >
 	{#each highlights as card}
 		<Card
@@ -115,6 +110,6 @@
 
 <div class="h-16" />
 
-<h4 class="text-indigo-950 dark:text-slate-200 text-base">
+<h4 class="text-base">
 	This page is made with Svelte + Tailwind
 </h4>

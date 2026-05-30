@@ -31,7 +31,7 @@
 </script>
 
 <div class="z-10 sm:sticky top-0 p-4 w-full grid grid-cols-[1fr_1fr_1fr] gap-4">
-	<DropDown class="justify-self-start w-12" routes={dropDownRoutes} />
+	<div/>
 	<div
 		class="flex flex-wrap h-min justify-between items-center gap-1 dark:bg-indigo-900 bg-slate-200 p-2"
 	>
@@ -55,3 +55,4 @@
 	</div>
 	<Theme class="justify-self-end w-12 h-12" />
 </div>
+<DropDown class="justify-self-start px-16" routes={dropDownRoutes} />
