@@ -1,4 +1,4 @@
-import{s as x,n as c,o as S,b as w}from"./scheduler.5bb7955e.js";import{S as F,i as R,g as y,h as T,j as P,f as m,k as l,a as E}from"./index.8d263f21.js";function V(a){let t;return{c(){t=y("canvas"),this.h()},l(o){t=T(o,"CANVAS",{id:!0,class:!0,width:!0,height:!0}),P(t).forEach(m),this.h()},h(){l(t,"id","bg"),l(t,"class","fixed top-0 left-0 w-full h-full pointer-events-none"),l(t,"width",globalThis.outerWidth),l(t,"height",globalThis.outerHeight)},m(o,i){E(o,t,i),a[1](t)},p:c,i:c,o:c,d(o){o&&m(t),a[1](null)}}}function C(a,t,o){let i=1080,f=1080;const v=`
+import{s as x,n as c,o as S,b as w}from"./scheduler.5bb7955e.js";import{S as F,i as R,g as y,h as T,j as P,f as m,k as l,a as E}from"./index.ec5bb1e0.js";function V(a){let t;return{c(){t=y("canvas"),this.h()},l(o){t=T(o,"CANVAS",{id:!0,class:!0,width:!0,height:!0}),P(t).forEach(m),this.h()},h(){l(t,"id","bg"),l(t,"class","fixed top-0 left-0 w-full h-full pointer-events-none"),l(t,"width",globalThis.outerWidth),l(t,"height",globalThis.outerHeight)},m(o,i){E(o,t,i),a[1](t)},p:c,i:c,o:c,d(o){o&&m(t),a[1](null)}}}function C(a,t,o){let i=1080,f=1080;const v=`
 precision mediump float;
 
 uniform vec2 u_res;
