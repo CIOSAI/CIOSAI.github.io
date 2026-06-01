@@ -35,7 +35,7 @@
 		},
 		{
 			url: `${base}/img/thumbnails/fontsonwiki.png`,
-			href: `${base}/fontsonwiki`,
+			href: `${base}/fonts-on-wiki`,
 			caption: 'FontsOnWiki - Wikimedia query tool',
 			tags: 'typo,code',
 		},
