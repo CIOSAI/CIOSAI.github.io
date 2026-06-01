@@ -35,7 +35,7 @@
 		},
 		{
 			url: `${base}/img/thumbnails/fontsonwiki.png`,
-			href: `${base}/fonts-on-wiki`,
+			href: "https://ciosai.github.io/fonts-on-wiki",
 			caption: 'FontsOnWiki - Wikimedia query tool',
 			tags: 'typo,code',
 		},
