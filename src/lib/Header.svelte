@@ -24,7 +24,7 @@
 		{ text: 'Home', url: base ? base : '/' },
 		{ text: 'Demoscene', url: `${base}/demoscene` },
 		{ text: 'Illustrations', url: `${base}/illustration` },
-		{ text: 'FontsOnWiki', url: `https://CIOSAI.github.io/fonts-on-wiki` },
+		//{ text: 'FontsOnWiki', url: `https://CIOSAI.github.io/fonts-on-wiki` },
 		{ text: 'Typography', url: `${base}/font` }
 	];
 </script>

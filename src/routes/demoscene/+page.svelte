@@ -4,6 +4,16 @@
 
 	const prods = [
 		{
+			url: 'https://media.demozoo.org/screens/o/20/2e/857c.379115.png',
+			href: 'https://www.pouet.net/prod.php?which=105927',
+			caption: 'Exegfx: Glass Polygon /with Slerpy'
+		},
+		{
+			url: 'https://media.demozoo.org/screens/o/e6/42/e3f6.375494.jpg',
+			href: 'https://www.pouet.net/prod.php?which=105587',
+			caption: 'Exegfx: 烏陰天'
+		},
+		{
 			url: 'https://content.pouet.net/files/screenshots/00105/00105423.png',
 			href: 'https://www.pouet.net/prod.php?which=105423',
 			caption: 'Demo: 到遐著知到矣'
@@ -57,6 +67,11 @@
 	];
 
   const livecodes = [
+		{
+			url: 'https://livecode.demozoo.org/media/2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_CIOSAI_tw.jpg',
+			href: 'https://livecode.demozoo.org/performer/ciosai_tw.html#mc',
+			caption: 'Revision 2026'
+		},
 		{
 			url: 'https://livecode.demozoo.org/media/2025_12_13_shader_jam_sessions/grabber_sessions_CIOSAI_tw.jpg',
 			href: 'https://livecode.demozoo.org/performer/ciosai_tw.html#mc',

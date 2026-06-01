@@ -2,11 +2,12 @@
 	let imgSrc = '';
 	let caption = '';
 	let href = './';
+	let tags = '';
 	let className = '';
-	export { imgSrc, caption, href, className as class };
+	export { imgSrc, caption, href, tags, className as class };
 </script>
 
-<div class={className + ' overflow-clip relative'}>
+<div class={className + ' overflow-clip relative'} data-tags={tags}>
 	<a {href} target="_blank" rel="noopener noreferrer">
 		<img
 			src={imgSrc}
